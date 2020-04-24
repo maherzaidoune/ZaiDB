@@ -1,0 +1,24 @@
+{
+  "name": "zaidb",
+  "version": "1.0.0",
+  "description": "javascript database",
+  "main": "src/db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maherzaidoune/ZaiDB.git"
+  },
+  "keywords": [
+    "javascript",
+    "db",
+    "database"
+  ],
+  "author": "maher zaidoun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maherzaidoune/ZaiDB/issues"
+  },
+  "homepage": "https://github.com/maherzaidoune/ZaiDB#readme"
+}
