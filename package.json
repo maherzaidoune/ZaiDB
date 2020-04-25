@@ -1,10 +1,14 @@
 {
   "name": "zaidb",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "javascript database",
   "main": "src/db.js",
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf node_modules"
   },
   "repository": {
     "type": "git",
@@ -16,9 +20,22 @@
     "database"
   ],
   "author": "maher zaidoun",
+  "contributors": [
+    {
+      "name": "Maher zaidoun",
+      "email": "maherzadioune@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/maherzaidoune/ZaiDB/issues"
   },
-  "homepage": "https://github.com/maherzaidoune/ZaiDB#readme"
+  "homepage": "https://github.com/maherzaidoune/ZaiDB#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "jshint": "^2.9.2",
+    "rimraf": "^2.5.4",
+    "should": "^4.6.5"
+  }
 }
